@@ -1,66 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arvo:wght@700&display=swap');
 
-@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;800&display=swap');
-
-
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-body{
+body {
     font-family: 'Nunito', sans-serif;
-    font-size: 15px;
+    font-size: 14px;
 }
 
-a{
+a {
     text-decoration: none;
     color: #222;
-    
 }
 
-
-header{
+header {
     background-color: #23160c;
     opacity: 0.9;
     color: #eee;
     text-align: center;
-    padding-top:  5px;
+    padding-top: 5px;
     padding-bottom: 25px;
+    /* padding: 5px 0 25px 0; */
 }
 
-header nav a{
+header nav a {
     text-decoration: none;
     color: #ddb99d;
-    padding: 15px;
+    padding: 10px
 }
 
-header nav a:hover{
+header nav a:hover {
     border-bottom: solid 4px #ddb99d;
     color: #eee;
-    
 }
 
-
-.right{
+.right {
     text-align: right;
-    
 }
 
-.flex-nav{
+.flex-nav {
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
 
-.white{
+.white {
     color: #eee;
 }
 
-.social-icons{
-    padding-right:20px;
-}
-.social-icons img{
-    padding:0 5px;
+.social-icons {
+    padding-right: 20px;
 }
 
+.social-icons img {
+    padding: 0 5px;
+}
+
+.carousel-item {
+    background-color: rosybrown;
+    height: 400px;
+    position: relative;
+}
+
+.carousel-item .carousel-item-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+.carousel-control-prev-icon {
+    filter: invert(0);
+}
+
+.carousel-indicators [data-bs-target] {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}
+
+.letra1{
+    color:white;
+    text-align: center;
+    font-family: 'Arvo', serif;
+    letter-spacing: 5px;
+    line-height: 60px;
+    font-size: 35pt;
+}
+
+.letra2{
+    color: white;
+    letter-spacing: 5px;
+    font-weight: 600;
+    font-family: 'nunito', serif;
+}
+
+.font1 {
+    font-family: 'Great Vibes', sans-serif;
+    text-align: center;
+    padding-top: 50px;
+    color: #fba700;
+    font-size: 28pt;
+
+}
+
+.font2{
+    color: #2C1E21;
+    text-align: center;
+    font-family: 'Arvo', serif;
+    letter-spacing: 5px;
+    line-height: 60px;
+   
+}
+
+.font3{
+    color: #575659;
+    text-align: center;
+    font-family: "Libre Baskerville", Sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    max-width: 500px;
+
+}
+
+.button{
+
+    font-family: 'Libre Baskerville', serif;
+    display: inline-block;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 35px;
+    padding: 12px 20px 11px 20px;
+    border:2px solid #FBA700;
+    bottom:50px;
+    border-radius: 5px;
+}
+
+.button:hover{
+    color: whitesmoke;
+    background-color: #FBA700;
+}
+
+.text{
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+samp{
+    color: #FBA700;
+    font-size: 30pt;
+    font-family: 'Arvo', serif;
+
+}
+
+hr{
+    border-top: 2px solid #fba700;
+}
