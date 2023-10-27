@@ -171,3 +171,21 @@ samp{
 hr{
     border-top: 2px solid #fba700;
 }
+
+@media screen and (max-width:980px) {
+    .logo{
+        display: none;
+    }
+    .flex-nav{
+        flex-direction: column;
+
+    }
+    .flex-nav a{
+        display: flex;
+        justify-content: center;
+    }
+    .navbar-toggler-icon{
+        background-image: url(/img/icons/bars-solid.svg);
+        border-color: #ddb99d;
+    }
+    
